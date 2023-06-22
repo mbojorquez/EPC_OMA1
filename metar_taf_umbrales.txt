@@ -1,0 +1,146 @@
+ILS CAT 1
+ATC -> rules to different kind of approaches and Low visbility Operations.
+RVR is included in METAR if RVR is less than 1500m
+RVR activates during low visibility (<2000 m)
+RVR evalutes if conditions are above o below operating minima for land and take off
+RVR is not a parameter, is an assesment of runway
+visual range based on calculations (atmosph, physical, operational factor)
+
+RVR: Rango sobre el cual el piloto de una aeronave ubicado sobre la linea
+central de la pista puede ver las marcas o luces o la linea central de la pista.
+
+Runway visibility
+
+Met Optical Range MOR 
+distancia mas larga a la cual puedo observar un objeto oscuro con fondo brillante)
+
+Slant visual range SVR
+visual range of obecjts seen from an aircraft on the approach
+SVR can differ from RVR because of the change of density fog with height.
+
+RVR How is it calculated?
+The first value is gotten of a transmissometer, it measures the light
+transmittance of the atrmospher. Then, RVR is calucalted taking account runay light level,
+sensitivity of the pilot eye.
+
+AIRPORT
+VUELO VISUAL
+DA/H >= VMC
+ceiling: 1500FT
+Visib: 5000 m
+
+
+APROX DE NO PRECISIÓN
+DA/H >= 250FT
+VIS = 1000 m
+
+PRECISION APPROACH (PA)
+PA is an instrument approach and landing using guiado lateral y vertical.
+Non precision: just guiado horizontal
+CAT of precision approach and landing is based on RVR and DH
+
+PRECISION APPROACH CATEGORIES
+CAT1 techo 250FT (requiere x lo menos 1 rvr)
+Mapt Requires Barometric Altimeter
+Cat1 > MApt > DA > barometric altitude
+Ceiling: >=200FT 
+RVR >= 550M
+Vis >= 800 m
+
+CAT2 2 of everything (2 independent ILS Receivers)
+DA Requires Radio Altimeter
+<1200 RVR Lowest approchas that has DA
+Ceiling <=100FT & <200FT
+RVR >= 300M
+
+CAT3 (DA X) there are alert altitudes just in Operators Flight
+RVR >= 175m
+
+CAT3 A >autoland y acelerador automatico 
+RVR >= 175m
+No DA or 100ft
+
+CAT3 B > CAT3 A + stop itself on the centerline of the runway
+B767/B777
+RVR <= 50m & < 175m
+No DA or 100ft
+
+Metar/SPECI just consider the RVR value of TDZ (touchdown zone), no MID no END.
+RVR not available RDD////
+
+CAT3C > CAT 3 B + AUTO TAXI IN PARKING
+No RVR limits
+No DH
+
+RVR 		res
+<400		25m
+>=400 & <800	50m
+>=800		100m
+
+
+R16L/P0500D > RVR EN UMBRAL 16L ES MAYOR QUE 500M CON TENDENCIA DE DISMINUCIÓN
+R16R/M0400U > RVR EN UMBRAL 16R ES MENOR QUE 400M CON TENDENCIA DE INCREMENTO
+-----------------------------------
+
+METAR/speci	res
+5000-9000	~1000
+>800		~100
+<=400<=800	~50
+<400		~25
+
+Techo
+0<=300FT		~50ft
+>300 & <=10000FT	~100ft
+
+DS/SS	   VIS 
+fuerte (+) <200
+moderada () 200<=vis<=600
+
+##############
+SPECI
+temp >= 2°
+dwind >= 60° con 10kt
+mwind > 10kt
+rafagas con 15kt d media
+irrumpe cae o cese WW
+PP + o moderada
+TS (con PP)
+irrumpa o cese 	TS
+OVC < 1500ft
+
+vis: empeore y pase / mejorando y cambie a o pase
+800 1500 3000 y 5000 (vfr)
+50 175 300 550 800 (rvr)
+
+nubes:
+100 200 500 1000 1500
+
+###################
+TAF
+vis:
+150 350 600 800 1500 3000 5000
+Techo:
+100 200 500 1000 1500 FT
+
+vis		res
+5000-9000	~1000
+>800		~100
+<=400<=800	~50
+<400		~25
+
+WW: empiezen terminen o cambien
+pp (moderada o +) inlcluido SH
+TSRA
+DU
+DS
+
+10.10.145.99
+user: corpac
+pass: corpac2023$
+
+10.10.145.43
+user: oma
+pass: spqt$2023
+sudo su
+
+
